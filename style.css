@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+    background: #f2f2f2; 
+    margin: 0; 
+    padding: 4%; 
+}
+a {text-decoration: none;  color: rgb(92, 92, 92);}
+a:hover {color: #A66A00;} 
+img {border: 1px solid transparent; box-shadow: 0 0 30px rgb(0 0 0 / 10%);}
+/* .col-md-9, .col-md-3 {padding: 0;} */
+hr {color: rgb(114, 114, 114); margin: 0;}
+ul {list-style-type: none;}
+i {font-size: 22px; color: #A66A00;}
+
+/* #container {padding: 0;} */
+
+.left-aside { 
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+    background: #ffffff; 
+    padding: 45px 30px;
+}
+
+.left-aside .avatar {text-align: center; line-height: 2em; font-size: 18px;}
+.left-aside .avatar img {
+    margin-bottom: 20px; 
+    object-fit: contain; 
+    width: 130px; 
+    border-radius: 50%; 
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%), 0 5px 20px 0 rgb(0 0 0 / 10%);
+} 
+.left-aside .avatar a span {color: #A66A00; font-size: 24px; font-weight: 600;}
+.left-aside .nav {padding: 20px 0;}
+.left-aside .nav ul {width: 100%; padding-left: 5px; line-height: 2.8em;}
+.left-aside .nav ul a {padding: 10px 0;}
+.left-aside .social-icons {text-align: center; margin-top: 20px;} 
+.left-aside i {margin: 0 4px 10px 4px;}
+.left-aside .footer {font-size: 14px; text-align: center; margin-top: 5px;}
+
+.right-container {
+    padding: 60px 35px 20px 35px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+    background: #ffffff; 
+    height: 100%;
+}
+.right-container hr {margin: 25px 0;}
+.right-container img {width: 100%;}
+#about img {margin-bottom: 20px;}
+.right-container p .text {margin: 30px 0; overflow: hidden;}
+.right-container .head-style {padding-left: 60px; position: relative;}
+.right-container .head-style:after {
+    content: "";
+    height: 3px;
+    left: 0px;
+    top: 10px;
+    width: 50px;
+    background-color: #A66A00;
+    position: absolute;
+}
+.right-container a.excursions-link {color: #A66A00; font-weight: 600; }
+.right-container a.excursions-link:hover {color: #251e16;}
+.right-container .excursion-link-to-page {text-align: center; margin: 20px;}
+.right-container i {font-size: 18px;}
+.right-container .contacts {text-align: end; line-height: 2em; padding: 10px;}
+.right-container .excursions-hr {margin-top: 0;}
+/*********************************   excurtions  ********************************/
+.right-container #excursions .excursion-short-description {max-height: 400px; overflow: hidden;}
+.right-container #excursions img {margin-bottom: 15px;}
+.right-container #excursions a {color: #A66A00;}
+.right-container #excursions .col-lg-6 {margin-bottom: 30px;}
+/*********************************  reviews  ********************************/
+
+/********************************  Modal  *******************************/
+.right-container #excursions .modal-body a {color: rgb(114, 114, 114);}
+.modal-dialog {min-width: 70%!important;}
+.modal-content {padding: 25px!important;}
+#route-1-Label {color: #A66A00;}
+.fade .modal-dialog {min-width:50%!important;}
+
+/*********************************  preparation  ********************************/
+.right-container .preparations {text-align: center;}
+.right-container .preparations i {font-size: 50px; color: rgb(92, 92, 92); margin: 15px 0;}
+.right-container .preparations ul {padding: 0;}
+.right-container .preparations .fa-check {font-size: 15px; margin:0}
+.right-container .preparations .preparation {padding: 0 20px;}
+
+.right-container .gallery {text-align: center;}
+.right-container .gallery a {color: #A66A00;}
+.right-container .gallery img {margin-bottom: 10px; height: 80%;}
+
